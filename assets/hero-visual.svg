@@ -1,0 +1,66 @@
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="84" y1="55" x2="810" y2="655" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E4775"/>
+      <stop offset="1" stop-color="#153F71"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="170" y1="470" x2="690" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#31AD68"/>
+      <stop offset="1" stop-color="#0E8B88"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#082C4A" flood-opacity="0.22"/>
+    </filter>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2.4" cy="2.4" r="1.8" fill="#FFFFFF" fill-opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect x="18" y="18" width="864" height="684" rx="46" fill="url(#bg)"/>
+  <rect x="18" y="18" width="864" height="684" rx="46" fill="url(#dots)"/>
+  <path d="M79 516C201 392 320 564 435 431C521 332 542 241 654 246C744 250 772 338 839 304" stroke="#FFFFFF" stroke-opacity="0.13" stroke-width="28" stroke-linecap="round"/>
+  <path d="M70 534C203 390 316 572 444 435C530 343 548 256 659 260C754 264 777 352 842 319" stroke="url(#wave)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M117 597C251 470 351 608 478 519C585 444 631 378 807 407" stroke="#F7D31A" stroke-width="8" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <rect x="94" y="90" width="275" height="150" rx="24" fill="#FFFFFF"/>
+    <circle cx="140" cy="139" r="19" fill="#31AD68"/>
+    <text x="177" y="134" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#153F71">HUMAN–AI</text>
+    <text x="177" y="157" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#153F71">COLLABORATION</text>
+    <text x="125" y="199" font-family="Arial, sans-serif" font-size="14" fill="#566579">Designing better ways for</text>
+    <text x="125" y="219" font-family="Arial, sans-serif" font-size="14" fill="#566579">people and AI to work together.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="535" y="95" width="257" height="132" rx="24" fill="#FFFFFF"/>
+    <circle cx="578" cy="137" r="19" fill="#EF7D0C"/>
+    <text x="613" y="135" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#153F71">SOFTWARE</text>
+    <text x="613" y="157" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#153F71">EDUCATION</text>
+    <text x="564" y="195" font-family="Arial, sans-serif" font-size="13.5" fill="#566579">Preparing AI-ready engineers.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="112" y="382" width="255" height="133" rx="24" fill="#FFFFFF"/>
+    <circle cx="154" cy="425" r="19" fill="#1288B4"/>
+    <text x="190" y="423" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#153F71">OPEN SOURCE</text>
+    <text x="190" y="445" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#153F71">&amp; ONBOARDING</text>
+    <text x="142" y="482" font-family="Arial, sans-serif" font-size="13.5" fill="#566579">Lowering barriers to contribution.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="548" y="414" width="244" height="122" rx="24" fill="#FFFFFF"/>
+    <circle cx="590" cy="455" r="19" fill="#F7D31A"/>
+    <text x="626" y="452" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#153F71">DEVELOPER</text>
+    <text x="626" y="474" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#153F71">EXPERIENCE</text>
+    <text x="577" y="509" font-family="Arial, sans-serif" font-size="13.5" fill="#566579">Helping developers thrive.</text>
+  </g>
+  <g>
+    <circle cx="447" cy="352" r="78" fill="#FFFFFF" fill-opacity="0.98"/>
+    <circle cx="447" cy="352" r="52" fill="#EFF8F4"/>
+    <path d="M414 368C430 343 447 332 472 333C465 351 463 369 481 386C450 389 426 383 414 368Z" fill="#31AD68"/>
+    <path d="M425 329C441 317 459 315 476 320" stroke="#153F71" stroke-width="8" stroke-linecap="round"/>
+    <path d="M449 303V324" stroke="#EF7D0C" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="449" cy="293" r="10" fill="#F7D31A"/>
+  </g>
+  <circle cx="371" cy="308" r="10" fill="#31AD68"/>
+  <circle cx="523" cy="316" r="10" fill="#EF7D0C"/>
+  <circle cx="382" cy="438" r="10" fill="#1288B4"/>
+  <circle cx="533" cy="401" r="10" fill="#F7D31A"/>
+  <path d="M376 308L413 332M516 319L484 337M390 431L417 389M525 401L486 382" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="6 8"/>
+  <text x="606" y="611" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#FFFFFF" fill-opacity="0.72">PEOPLE · AI · OPEN SOURCE</text>
+</svg>
